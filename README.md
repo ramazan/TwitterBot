@@ -1,6 +1,29 @@
 # Twitter Bot
 Simple Twitter Bot
 
+# Installing
+
+```shell
+npm install twitterbot
+```
+
+# Configuration
+
+You need to change [Config.js](config.js) above parameter from Twitter for OAuth
+
+```javascript
+module.exports = {
+        consumer_key:         '...',
+        consumer_secret:      '...',
+        access_token:         '...',
+        access_token_secret:  '..',
+        timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
+}
+ ```
+For this keys go  [Twitter Application Management](https://apps.twitter.com/)
+
+Login with your Twitter account and create app for usage , after creating app  click 'Keys and Access Tokens' section and get tokens 
+
 
 # Sample Usage 
 
