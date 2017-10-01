@@ -22,7 +22,12 @@ module.exports = {
  ```
 For this keys go  [Twitter Application Management](https://apps.twitter.com/)
 
-Login with your Twitter account and create app for usage , after creating app  click 'Keys and Access Tokens' section and get tokens 
+Login with your Twitter account and create app  
+
+After creating app  click 'Keys and Access Tokens' section and get tokens 
+
+![Token](https://i.imgur.com/XRBXt6X.png)
+![Secret](https://i.imgur.com/tj65QYN.png)
 
 
 # Sample Usage 
@@ -48,4 +53,4 @@ function gotData(err,data,response){
 ##### This code searches and get last 2 tweets contains 'Fenerbahçe' keyword.
 ##### count parameter is specify how many tweets get from Twitter
 
-![alt text](http://i.imgur.com/S7cqfptr.png)
+![Sample](http://i.imgur.com/S7cqfptr.png)
