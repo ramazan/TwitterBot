@@ -3,13 +3,18 @@ Simple Twitter Bot
 
 # Installing
 
+Clone repository  
+
+In projects folder run bottom command .
+
+
 ```shell
-npm install twitterbot
+npm install 
 ```
 
 # Configuration
 
-You need to change [Config.js](config.js) above parameter from Twitter for OAuth
+You need to change [Config.js](config.js) bottom parameter from Twitter for OAuth
 
 ```javascript
 module.exports = {
